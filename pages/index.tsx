@@ -20,7 +20,6 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ page, error }) => {
-  // Clean the received content
   // Removes unknown or not allowed bricks
   const { pageTypes, bricks } = useContext(ReactBricksContext)
 
